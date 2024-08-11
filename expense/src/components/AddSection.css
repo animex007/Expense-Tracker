@@ -1,0 +1,31 @@
+.add-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .add-section input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+  }
+  
+  .add-section button {
+    padding: 0.5rem 2rem;
+    background-color: #fff;
+    color: #4B0082;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .add-section button:hover {
+    background-color: #DA70D6;
+    color: #fff;
+  }
+  
